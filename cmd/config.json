@@ -1,0 +1,18 @@
+{
+    "app": {
+        "url": "http://127.0.0.1",
+        "port": 8000,
+        "environment": "development"
+    },
+    "db": {
+        "host": "http://127.0.0.1",
+        "port": 5432,
+        "db": "go_jwt",
+        "user": "postgres",
+        "password": "2212"
+    },
+    "auth": {
+        "jwt-secret-key": "super-secret-key-for-signing-tokens",
+        "jwt-time-to-live": 60
+    }
+}
